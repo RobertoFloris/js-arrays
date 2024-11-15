@@ -68,4 +68,10 @@ const teachersString = teachers.join(",");
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+let isTeachersEmpty = true;
+
+if(teachers.length > 0){
+  isTeachersEmpty = false;
+}
+
+console.log(isTeachersEmpty)
