@@ -82,4 +82,11 @@ const isTeachersEmpty = teachers.length === 0;
 //   isTeachersEmpty = false;
 // }
 
-console.log(isTeachersEmpty)
+// console.log(isTeachersEmpty)
+
+// 11. Per ogni insegnante stampa in console la frase
+// [Nome insegnante] è l'insegnante in posizione [i]
+
+for (let i=0; i<teachers.length; i++){
+  console.log(`${teachers[i]} è l'insegnante in posizione ${i}`)
+}
